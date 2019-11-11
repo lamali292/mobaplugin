@@ -1,0 +1,12 @@
+name: MobaPlugin
+version: 1.0
+main: de.lamali.mobaplugin.main.MobaPlugin
+api-version: 1.13
+
+commands:
+   mobastart:
+      description: first command
+   mobatime:
+      description: first command
+   mobagold:
+      description: first command
