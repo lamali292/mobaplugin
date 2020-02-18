@@ -10,8 +10,8 @@ import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.Particle;
 import org.bukkit.Sound;
-import org.bukkit.craftbukkit.v1_14_R1.CraftParticle;
-import org.bukkit.craftbukkit.v1_14_R1.entity.CraftPlayer;
+import org.bukkit.craftbukkit.v1_15_R1.CraftParticle;
+import org.bukkit.craftbukkit.v1_15_R1.entity.CraftPlayer;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
@@ -25,7 +25,7 @@ import de.lamali.mobaplugin.main.AABB.Vec3D;
 import de.lamali.mobaplugin.main.items.MobaItem;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
-import net.minecraft.server.v1_14_R1.PacketPlayOutWorldParticles;
+import net.minecraft.server.v1_15_R1.PacketPlayOutWorldParticles;
 
 public class MobaPlayer extends MobaObject {
 
